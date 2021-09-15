@@ -5,8 +5,12 @@ using static System.Console;
 
 namespace Delegate // 대리자 , 타입
 {
+
+
     class Calculator
     {
+        public int notCommit;
+
         public delegate void calculator(int a, int b);
         public void Process(calculator calculator)
         {
@@ -17,7 +21,6 @@ namespace Delegate // 대리자 , 타입
     {
         static void Main(string[] args)
         {
-
         }
     }
 }
